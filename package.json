@@ -1,0 +1,53 @@
+{
+  "name": "patchkit-radios",
+  "version": "1.0.0",
+  "description": "Convenient way to create sets of radio buttons",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfraze/patchkit-radios.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pfraze/patchkit-radios/issues"
+  },
+  "homepage": "https://github.com/pfraze/patchkit-radios#readme",
+  "dependencies": {
+    "react": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "envify",
+        {
+          "global": true
+        }
+      ],
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015",
+            "stage-0",
+            "react"
+          ]
+        }
+      ]
+    ]
+  }
+}

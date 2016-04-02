@@ -1,6 +1,6 @@
 {
   "name": "patchkit-radios",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convenient way to create sets of radio buttons",
   "main": "index.jsx",
   "scripts": {

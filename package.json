@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pfraze/patchkit-radios.git"
+    "url": "git+https://github.com/patchkit/patchkit-radios.git"
   },
   "keywords": [
     "react"
@@ -16,9 +16,9 @@
   "author": "Paul Frazee <pfrazee@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/pfraze/patchkit-radios/issues"
+    "url": "https://github.com/patchkit/patchkit-radios/issues"
   },
-  "homepage": "https://github.com/pfraze/patchkit-radios#readme",
+  "homepage": "https://github.com/patchkit/patchkit-radios#readme",
   "dependencies": {
     "react": "^0.14.6"
   },

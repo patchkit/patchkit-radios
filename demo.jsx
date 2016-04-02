@@ -10,9 +10,9 @@ export default class RadiosDemo extends React.Component {
     ]
     const onChange = opt => { console.log('selected', opt) }
     return <div>
-      <h1>patchkit-selector</h1>
+      <h1>patchkit-radios</h1>
       <section className="radios">
-        <header>&lt;Selector group="example" options=[&#123; label:, value: &#125;, ...]&gt;</header>
+        <header>&lt;Radios group="example" options=[&#123; label:, value: &#125;, ...]&gt;</header>
         <div className="content">
           <Radios className="radios-example" group="example" options={opts} onChange={onChange} />
         </div>
